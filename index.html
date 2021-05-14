@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ini Expo</title>
+    <script src="node_modules/three/build/three.min.js"></script>
+    <script src="node_modules/three/examples/js/controls/OrbitControls.js"></script>
+    <script src="node_modules/threex.domevents.js"></script>
+    <script src="node_modules/three/examples/js/loaders/TTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/opentype.js@latest/dist/opentype.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script type="module" src="lib/booth.js"></script>
+<div id="loader">
+	<h2 class="loader1"></h2>
+</div>
+
+<div id="modalbox" class="" onclick="closemodal();">
+	<div id="modal-test" style="position:absolute;background-color: transparent;width:50px;float: right;">
+		<h1 style="position:relative;color:white;cursor:pointer;" >&nbsp;</h1>
+	</div>
+</div>
+<script>
+    
+	window.onload = function(){ document.getElementById("loader").style.display = "none"; }
+
+	function closemodal() { 
+		document.getElementById('modalbox').classList.remove('showmodal');
+	}
+
+	function popup1() {
+       let newwindow = window.open('https://www.tokopedia.com/victory-88', 'Tokopedia','height=500,width=700');
+       if (window.focus) {newwindow.focus()}
+       return false;
+     }
+
+     function popup2() {
+       let newwindow = window.open('https://www.tokopedia.com/tomogoods', 'Tokopedia','height=500,width=700');
+       if (window.focus) {newwindow.focus()}
+       return false;
+     }
+
+     function popup3() {
+       let newwindow = window.open('https://www.tokopedia.com/nanvanofficial', 'Tokopedia','height=500,width=700');
+       if (window.focus) {newwindow.focus()}
+       return false;
+     }
+
+     function popup4() {
+       let newwindow = window.open('https://www.tokopedia.com/arto-moro-cell', 'Tokopedia','height=500,width=700');
+       if (window.focus) {newwindow.focus()}
+       return false;
+     }
+
+     function popup5() {
+       let newwindow = window.open('https://www.tokopedia.com/agatastore', 'Tokopedia','height=500,width=700');
+       if (window.focus) {newwindow.focus()}
+       return false;
+     }
+</script>
+	
+</body>
+</html>
